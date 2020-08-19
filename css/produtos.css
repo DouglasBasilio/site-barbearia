@@ -29,3 +29,35 @@ nav a {
     text-decoration: none;
 }
 
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0; /* Quando declaro que existe um espaçamento interno, estou aumentando o conteúdo. */
+}
+
+.produtos li {
+    display: inline-block; /* O tamanho pode ser ajustado, tanto na largura, quanto na altura. */
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    /* background: #CCCCCC; */
+    margin: 0 1.5%; /* 99% do nosso elemento principal ocupado */
+    padding: 30px 20px; /* 30px pra cima e para baixo e 20px para direita e esquerda */
+    box-sizing: border-box; /* o espaçamento lateral esteja dentro do percentual, os meus 30% são definifitos, são sempre a largura, e o espaçamento interno fica dentro dos 30% */
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 18px;
+    margin-top: 10px; /*poderia usar também margin: 10px 0 0; */
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px; /*poderia usar também margin: 10px 0 0; */
+}
