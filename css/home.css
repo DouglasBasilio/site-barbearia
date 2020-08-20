@@ -7,10 +7,6 @@
     padding: 30px;
 }
 
-.titulo-principal {
-    padding-left: 20px;
-}
-
 .titulo-centralizado {
     text-align: center;
 }
@@ -36,7 +32,7 @@ em strong {
     padding: 20px;
 }
 
-ul {
+.beneficios ul {
     display: inline-block;
     vertical-align: top;
     width: 20%;
