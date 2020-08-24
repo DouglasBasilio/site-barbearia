@@ -40,7 +40,7 @@
 
 .mapa {
     padding: 3em 0;
-    background: linear-gradient(#FEFEFE, #888888);
+    background: linear-gradient( #FEFEFE, #888888);
 }
 
 .mapa-conteudo {
@@ -81,6 +81,10 @@
 /* pseudo-elemento */
 .itens:first-child {
     font-weight: bold;
+}
+
+.itens:before {
+    content: "🟊";
 }
 
 .imagem-beneficios {
