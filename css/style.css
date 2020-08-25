@@ -38,6 +38,8 @@ nav a:hover {
     text-decoration: underline;
 }
 
+
+
 footer {
     text-align: center;
     background: url("../img/bg.jpg");
@@ -48,4 +50,16 @@ footer {
     color: #FFFFFF;
     font-size: 13px;
     margin-top: 20px;
+}
+
+@media screen and (max-width: 480px) { 
+    .caixa, .produtos {
+        width: auto;
+    }
+    h1 {
+        text-align: center;
+    }
+    nav {
+        position:static;
+    }
 }
